@@ -1,5 +1,4 @@
-$LOAD_PATH.push File.expand_path('lib', __dir__)
-require 'version'
+require_relative 'lib/mongoid_token/version'
 
 Gem::Specification.new do |s|
   s.name        = 'mongoid_token'
